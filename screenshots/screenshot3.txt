@@ -1,0 +1,39 @@
+╔══════════════════════════════════════════════════════════════════╗
+║  git-hook-manager-max — List Created Hooks                       ║
+║  $ ghm list                                                     ║
+╚══════════════════════════════════════════════════════════════════╝
+
+$ ghm list
+📁 test-ghm-repo
+
+  HOOK                   STATUS       SIZE     DESCRIPTION
+  ----------------------------------------------------------------------
+  pre-commit             ✅ active 63B      pre-commit hook
+  pre-push               ✅ active 61B      pre-push hook
+
+Total: 2 hook(s)
+
+$ ghm --help
+usage: ghm [-h] [--version] [--json] [--no-color]
+           {list,create,edit,delete,toggle,templates,init,export,import} ...
+
+git-hook-manager-max — A visual Git hook manager CLI
+
+positional arguments:
+  {list,create,edit,delete,toggle,templates,init,export,import}
+                        Command to run
+    list                List hooks
+    create              Create a new hook
+    edit                Edit a hook
+    delete              Delete a hook
+    toggle              Enable/disable a hook
+    templates           List available templates
+    init                Initialize in current repo
+    export              Export hooks as JSON
+    import              Import hooks from JSON
+
+options:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+  --json                Output as JSON
+  --no-color            Disable colored output

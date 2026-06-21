@@ -1,0 +1,13 @@
+╔══════════════════════════════════════════════════════════════════╗
+║  git-hook-manager-max — Create Hooks                             ║
+║  $ ghm create pre-commit                                         ║
+╚══════════════════════════════════════════════════════════════════╝
+
+$ ghm create pre-commit
+✓ Created hook: pre-commit
+
+$ ghm create pre-push
+✓ Created hook: pre-push
+
+$ ghm create pre-commit
+✗ Hook already exists: pre-commit

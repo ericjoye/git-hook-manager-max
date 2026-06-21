@@ -1,0 +1,20 @@
+[90m╭─────────────────────────────────────────────────────────────────────╮[0m
+[90m│[0m   [91m●[0m [93m●[0m [92m●[0m   [1m[96mgit-hook-manager-max[0m[0m  [2mManage git hooks with ready-made templates[0m [90m│[0m
+[90m├─────────────────────────────────────────────────────────────────────┤[0m
+[90m│[0m [92m$[0m [97mghm list[0m                                                          [90m│[0m
+[90m│[0m [1m📁 ghmdemo[0m                                                          [90m│[0m
+[90m│[0m [2mHOOK             STATUS      SIZE   DESCRIPTION[0m                     [90m│[0m
+[90m│[0m [2m------------------------------------------------------------[0m        [90m│[0m
+[90m│[0m [97mcommit-msg[0m       [92m✅ active[0m   611B   [2mEnforce conventional commits[0m    [90m│[0m
+[90m│[0m [97mpre-commit[0m       [92m✅ active[0m   624B   [2mRun linters[0m                     [90m│[0m
+[90m│[0m [2mTotal: 2 hook(s)[0m                                                    [90m│[0m
+[90m│[0m                                                                     [90m│[0m
+[90m│[0m [92m$[0m [97mghm templates[0m                                                     [90m│[0m
+[90m│[0m [1mAvailable hook templates:[0m                                           [90m│[0m
+[90m│[0m   [96mpre-commit[0m     [2mRun linters before allowing commit[0m                 [90m│[0m
+[90m│[0m   [96mcommit-msg[0m     [2mEnforce conventional commit message format[0m         [90m│[0m
+[90m│[0m   [96mpre-push[0m       [2mRun tests before pushing[0m                           [90m│[0m
+[90m│[0m   [96mpost-checkout[0m  [2mInstall dependencies after checkout[0m                [90m│[0m
+[90m│[0m   [96mpre-rebase[0m     [2mPrevent rebasing published branches[0m                [90m│[0m
+[90m│[0m   [96mpost-merge[0m     [2mNotify about merge conflicts or changes[0m            [90m│[0m
+[90m╰─────────────────────────────────────────────────────────────────────╯[0m

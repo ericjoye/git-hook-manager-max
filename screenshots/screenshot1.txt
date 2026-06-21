@@ -1,0 +1,17 @@
+╔══════════════════════════════════════════════════════════════════╗
+║  git-hook-manager-max — List & Templates                         ║
+║  $ ghm list                                                     ║
+╚══════════════════════════════════════════════════════════════════╝
+
+$ ghm list
+No hooks found. Use 'ghm create <hook>' to add one.
+
+$ ghm templates
+Available hook templates:
+
+  pre-commit           Run linters before allowing commit
+  commit-msg           Enforce conventional commit message format
+  pre-push             Run tests before pushing
+  post-checkout        Install dependencies after checkout
+  pre-rebase           Prevent rebasing published branches
+  post-merge           Notify about merge conflicts or changes
