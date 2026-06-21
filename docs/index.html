@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Git Hook Manager — Visual Git Hook Management</title>
+<meta name="description" content="Create, edit, and manage git hooks with a visual interface. No more manual .git/hooks editing.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a0a0f;color:#e4e4e7;min-height:100vh}
+.nav{max-width:1200px;margin:0 auto;padding:20px 40px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:1.4rem;font-weight:700;color:#ef4444}
+.nav-links a{color:#a1a1aa;text-decoration:none;margin-left:30px;font-size:0.9rem}
+.nav-links a:hover{color:#fff}
+.hero{max-width:800px;margin:80px auto;text-align:center;padding:0 40px}
+.hero h1{font-size:3rem;font-weight:800;background:linear-gradient(135deg,#ef4444,#dc2626);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:20px}
+.hero p{color:#a1a1aa;font-size:1.2rem;line-height:1.7;margin-bottom:30px}
+.btn{display:inline-block;padding:14px 32px;border-radius:8px;font-size:1rem;font-weight:600;text-decoration:none}
+.btn-primary{background:linear-gradient(135deg,#ef4444,#dc2626);color:#fff}
+.features{max-width:1000px;margin:80px auto;padding:0 40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px}
+.card{background:#18181b;border:1px solid #27272a;border-radius:12px;padding:30px}
+.card h3{color:#ef4444;margin-bottom:10px}
+.card p{color:#a1a1aa;line-height:1.6}
+.install{max-width:600px;margin:80px auto;text-align:center;padding:0 40px}
+.install h2{font-size:2rem;margin-bottom:20px}
+.footer{max-width:1200px;margin:80px auto 40px;padding:20px 40px;text-align:center;border-top:1px solid #27272a}
+.footer a{color:#a1a1aa;text-decoration:none;margin:0 15px;font-size:0.85rem}
+.footer a:hover{color:#fff}
+</style>
+</head>
+<body>
+<nav class="nav">
+<div class="logo" style="display:flex;align-items:center;gap:8px">
+<div style="width:28px;height:28px;background:linear-gradient(135deg,#7c3aed,#06b6d4);border-radius:6px;display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff;font-size:0.8rem">D</div>
+<span style="font-size:1.1rem;font-weight:700;color:#a78bfa">DevTools</span>
+</div>
+<div class="nav-links">
+<a href="#features">Features</a>
+<a href="#install">Install</a>
+<a href="https://github.com/ericjoye/git-hook-manager-max">GitHub</a>
+</div>
+</nav>
+<main>
+<section class="hero">
+<h1>Visual Git Hook Management</h1>
+<p>Create, edit, and manage git hooks with a visual interface. No more manual .git/hooks editing.</p>
+<a href="#install" class="btn btn-primary">Install Free</a>
+</section>
+<section class="features" id="features">
+<div class="card">
+<h3>Visual Editor</h3>
+<p>Write hooks with syntax highlighting, validation, and templates. No shell scripting required.</p>
+</div>
+<div class="card">
+<h3>Hook Templates</h3>
+<p>Pre-built templates for linting, testing, formatting, security checks.</p>
+</div>
+<div class="card">
+<h3>Team Sharing</h3>
+<p>Export and share hooks across repos. Consistent standards everywhere.</p>
+</div>
+</section>
+<section class="install" id="install">
+<h2>Install Git Hook Manager</h2>
+<p style="color:#a1a1aa;margin-bottom:20px">Coming soon to Chrome Web Store &amp; PyPI</p>
+</section>
+</main>
+<footer class="footer">
+<a href="PRIVACY.md">Privacy</a>
+<a href="LICENSE">License</a>
+<a href="https://github.com/ericjoye/git-hook-manager-max">GitHub</a>
+<a href="mailto:eric@ericjoye.com">Support</a>
+<span style="margin-left:15px;color:#555;font-size:0.75rem">© 2026 DevTools Portfolio</span>
+</footer>
+
+    <!-- Buy Section -->
+    <div style="text-align:center; padding:40px 20px; background:#1a1a2e; border-radius:16px; margin:30px auto; max-width:500px;">
+        <h2 style="color:#e2e8f0; margin-bottom:12px;">Get git-hook-manager-max</h2>
+        <p style="color:#94a3b8; margin-bottom:20px;">Support development and get priority updates</p>
+        <a href="https://buy.polar.sh/1503853c-b407-4940-952d-fdf09f31f544" style="display:inline-block; background:#6366f1; color:#fff; padding:14px 36px; border-radius:8px; text-decoration:none; font-weight:600; font-size:1.1em; transition:background 0.2s;" onmouseover="this.style.background='#4f46e5'" onmouseout="this.style.background='#6366f1'">
+            🛒 Buy Now — $5.00
+        </a>
+        <p style="color:#64748b; font-size:0.85em; margin-top:12px;">One-time purchase • Instant delivery • MIT Licensed</p>
+    </div>
+
+</body>
+</html>
